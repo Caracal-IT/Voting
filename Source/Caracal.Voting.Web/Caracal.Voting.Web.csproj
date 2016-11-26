@@ -3015,8 +3015,6 @@
     <Content Include="node_modules\reflect-metadata\temp\test\reflect\reflect-metadata.js.map" />
     <Content Include="node_modules\reflect-metadata\temp\test\run.js.map" />
     <Content Include="node_modules\reflect-metadata\temp\test\spec.js.map" />
-    <Content Include="node_modules\reflect-metadata\test\tsconfig.json" />
-    <Content Include="node_modules\reflect-metadata\tsconfig.json" />
     <Content Include="node_modules\rxjs\add\observable\bindCallback.js.map" />
     <Content Include="node_modules\rxjs\add\observable\bindNodeCallback.js.map" />
     <Content Include="node_modules\rxjs\add\observable\combineLatest.js.map" />
