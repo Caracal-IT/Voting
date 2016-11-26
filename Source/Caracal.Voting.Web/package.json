@@ -2,10 +2,6 @@
   "name": "CaracalVoting",
   "version": "1.0.0",
   "description": "Voting",
-  "scripts": {
-    "tsc": "tsc",
-    "tsc:w": "tsc -w"
-  },
   "keywords": [],
   "author": "",
   "license": "MIT",
