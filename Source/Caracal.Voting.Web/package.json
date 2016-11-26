@@ -26,6 +26,8 @@
     "zone.js": "^0.6.26"
   },
   "devDependencies": {
+    "typescript": "2.0.3",
+    "typings":"1.4.0"
   },
   "repository": {}
 }
