@@ -2,10 +2,6 @@
   "name": "CaracalVoting",
   "version": "1.0.0",
   "description": "Voting",
-  "scripts": {
-    "tsc": "tsc",
-    "tsc:w": "tsc -w"
-  },
   "keywords": [],
   "author": "",
   "license": "MIT",
@@ -26,6 +22,8 @@
     "zone.js": "^0.6.26"
   },
   "devDependencies": {
+    "typescript": "2.0.3",
+    "typings":"1.4.0"
   },
   "repository": {}
 }
