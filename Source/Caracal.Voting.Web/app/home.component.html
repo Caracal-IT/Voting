@@ -1,0 +1,39 @@
+﻿<div class="ontop alert alert-info" role="alert">    
+    {{message}}
+</div>
+
+<div class="row">
+    <div class=".col-md-12"><h1>{{title}}</h1></div>
+</div>
+
+<div class="row" *ngIf="!hasVoted && votes.length > 0">
+    <div class=".col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">Voting</div>
+            <div class="panel-body">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-info" *ngFor="let vote of votes" (click)="castVote(vote.Text)">
+                        {{vote.Text}}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" *ngIf="hasVoted && voteResults.length > 0">
+    <div class=".col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">Voting Result</div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-{{vote.Result}}" *ngFor="let vote of voteResults">
+                        <span class="badge">{{vote.NumberOfVotes}}</span>
+                        <span class="badge">{{vote.Percentage}}%</span>
+                        {{vote.Text}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
